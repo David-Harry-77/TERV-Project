@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Super Admin Dashboard</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <h1>Super Admin Dashboard</h1>
+  <form id="create-user-form">
+    <input type="email" id="user-email" placeholder="Email" required>
+    <input type="password" id="user-password" placeholder="Password" required>
+    <select id="user-role">
+      <option value="admin">Admin</option>
+      <option value="student">Student</option>
+    </select>
+    <input type="text" id="admin-id" placeholder="Admin ID (for students only)">
+    <button type="submit">Create User</button>
+  </form>
+  <script src="js/main.js"></script>
+  <script src="js/superadmin.js"></script>
+</body>
+</html>

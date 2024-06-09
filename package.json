@@ -1,0 +1,20 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "A project with Super Admin, Admin, and Student functionalities.",
+  "main": "server/app.js",
+  "scripts": {
+    "start": "node server/app.js",
+    "client": "cd client && npm install",
+    "server": "cd server && npm install"
+  },
+  "author": "David",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^5.9.10"
+  }
+}
